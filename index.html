@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIFAME "let's be educated" — ONG pour l'Éducation et l'Émancipation des Filles à Toviklin (Bénin)</title>
+  <meta name="description" content="ONG FIFAME 'let's be educated' à Toviklin (Bénin). Éducation, formation professionnelle, bourses d'études et autonomisation des filles et jeunes femmes depuis 2018.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="FIFAME 'let's be educated' — ONG à Toviklin (Bénin)">
+  <meta property="og:description" content="Une fille instruite devient une mère qui veillera à l'éducation de ses enfants. Soutenez l'éducation des filles à Toviklin.">
+  <meta property="og:image" content="assets/images/hero-banner.jpg">
+  <meta property="og:url" content="https://fifameletsbe.wixsite.com/fifameletsbeeducated">
+  <meta property="og:type" content="website">
+
+  <!-- Polices Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- 1. TOPBAR INSTITUTIONNELLE -->
+  <aside class="topbar">
+    <div class="container">
+      <div class="topbar-info">
+        <span class="topbar-pill">ONG Bénin</span>
+        <span class="topbar-motto">"let's be educated" — Toviklin, Couffo (Bénin)</span>
+      </div>
+      <div class="topbar-contact">
+        <a href="mailto:fifameletsbe@gmail.com">✉️ fifameletsbe@gmail.com</a>
+        <a href="tel:+22965243333">📞 +229 65 24 33 33</a>
+        
+        <!-- Sélecteur de langue -->
+        <div class="lang-switcher" aria-label="Choix de la langue">
+          <a href="index.html" class="active" title="Français">FR</a>
+          <a href="de/index.html" title="Deutsch">DE</a>
+          <a href="#en" title="English">[EN]</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 2. HEADER & NAVIGATION PRINCIPALE -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" title="ONG FIFAME Toviklin">
+        <div class="brand-logo-frame">
+          <img src="assets/images/fifame-logo.jpg" alt="Logo Officiel ONG FIFAME" width="130" height="54">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">FIFAME</span>
+          <span class="brand-sub">let's be educated</span>
+        </div>
+      </a>
+
+      <!-- Menu Principal Desktop -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li class="nav-item active"><a href="index.html">Accueil</a></li>
+          <li class="nav-item"><a href="a-propos.html">À propos</a></li>
+          <li class="nav-item"><a href="equipe.html">Équipe</a></li>
+          <li class="nav-item dropdown">
+            <a href="programmes.html">Programmes ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="programmes-education.html">🎓 Éducation & Bourses</a></li>
+              <li><a href="programmes-social.html">🤝 Social & Santé</a></li>
+              <li><a href="programmes-environnement.html">🌱 Environnement & Recyclage</a></li>
+              <li><a href="programmes-tourisme.html">🌍 Tourisme Solidaire</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="galerie.html">Galerie</a></li>
+          <li class="nav-item"><a href="blog.html">Actualités</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="faire-un-don.html" class="btn btn-primary btn-sm">
+          Faire un don ♥
+        </a>
+      </nav>
+
+      <!-- Bouton Menu Mobile -->
+      <button id="mobileToggleBtn" class="mobile-btn" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </header>
+
+  <!-- DRAWER MOBILE -->
+  <div id="mobileDrawer" class="mobile-drawer">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <span class="brand-title">FIFAME ONG</span>
+        <button id="mobileDrawerClose" class="mobile-drawer-close" aria-label="Fermer le menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos de FIFAME</a></li>
+        <li><a href="equipe.html">L'Équipe</a></li>
+        <li><a href="programmes.html">Tous nos Programmes</a></li>
+        <li><a href="programmes-education.html">└ Éducation & Bourses</a></li>
+        <li><a href="programmes-social.html">└ Social & Santé</a></li>
+        <li><a href="programmes-environnement.html">└ Environnement</a></li>
+        <li><a href="programmes-tourisme.html">└ Tourisme Solidaire</a></li>
+        <li><a href="galerie.html">Galerie Photos</a></li>
+        <li><a href="blog.html">Actualités & Blog</a></li>
+        <li><a href="contact.html">Contact & Localisation</a></li>
+      </ul>
+      <div style="margin-top: 2rem;">
+        <a href="faire-un-don.html" class="btn btn-primary btn-block">Faire un don ♥</a>
+        <div style="margin-top: 1.5rem; text-align: center;">
+          <a href="de/index.html" style="font-weight: 700; color: var(--fifame-red); text-decoration: underline;">Version Allemande (Deutsch) 🇩🇪</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- 3. HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-pill">
+            <span>●</span> ONG active à Toviklin (Bénin) depuis 2018
+          </div>
+          <h1 class="hero-title">
+            « Une fille instruite <span class="red">change le monde</span>. »
+          </h1>
+          <p class="hero-lead">
+            En dialectes Adja, Fon et Minan, <strong>FIFAME</strong> signifie <em>« Oasis »</em> : nous considérons les filles, les femmes et les mères comme les oasis vivifiantes de la société. Une fille instruite devient une mère qui veillera toujours à l'éducation de ses enfants.
+          </p>
+          <div class="hero-ctas">
+            <a href="faire-un-don.html" class="btn btn-primary btn-lg">
+              Faire un don pour les filles
+            </a>
+            <a href="contact.html" class="btn btn-secondary btn-lg">
+              Nous contacter
+            </a>
+          </div>
+
+          <!-- Chiffres Clés Authentiques -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">43<span>+</span></div>
+              <div class="stat-lbl">Apprenties formées et autonomisées</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">2018</div>
+              <div class="stat-lbl">Année de fondation à Toviklin</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">3 <span>ans</span></div>
+              <div class="stat-lbl">Prise en charge intégrale de formation</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-frame">
+            <img src="assets/images/atelier-couture.jpg" alt="Atelier de couture et formation des jeunes filles à Toviklin" loading="eager">
+            <div class="hero-badge-overlay">
+              <div class="badge-title">Atelier d'Apprentissage & Solidarité</div>
+              <div class="badge-sub">Maison Bossoun WOINSOU — Toviklin, Bénin</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SIGNIFICATION DE FIFAME & MISSION FONDATRICE -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: center;">
+          <div>
+            <span class="eyebrow">Notre Raison d'Être</span>
+            <h2 class="section-title">Pourquoi FIFAME ? Le sens de l'« Oasis »</h2>
+            <p>
+              Dans le sud du Bénin, les dialectes <strong>Adja, Fon et Minan</strong> partagent un terme chargé d'espérance : <strong>FIFAME</strong>, qui désigne une <em>Oasis</em> au milieu du désert.
+            </p>
+            <p>
+              Dans la commune rurale de Toviklin et les villages environnants du département du Couffo, de trop nombreuses jeunes filles n'ont jamais été à l'école ou ont dû l'abandonner par manque d'argent, suite au décès précoce de leurs parents, ou sous la pression de mariages et grossesses précoces.
+            </p>
+            <p>
+              Face à cette réalité, FIFAME a vu le jour pour leur offrir un havre d'apprentissage, d'hébergement pour les orphelines, de soins médicaux et d'autonomie professionnelle durable.
+            </p>
+            <div style="margin-top: 1.5rem;">
+              <a href="a-propos.html" class="btn btn-secondary">Lire toute notre histoire &rarr;</a>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: var(--fifame-bg-gray); border-radius: var(--radius-lg); padding: 2.5rem; border: 1px solid var(--fifame-border);">
+              <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--fifame-red);">La Conviction de FIFAME</h3>
+              <blockquote style="font-family: var(--font-serif); font-style: italic; font-size: 1.1rem; line-height: 1.7; color: var(--fifame-black); margin-bottom: 1.5rem;">
+                « Lorsque vous éduquez un garçon, vous éduquez un individu. Lorsque vous éduquez une fille, vous éduquez toute une famille et une nation. Une fille instruite devient une mère qui veillera scrupuleusement à ce que ses enfants aillent à l'école. »
+              </blockquote>
+              <div style="font-weight: 700; font-size: 0.875rem; color: var(--fifame-text-muted);">
+                — Germaine & Prosper WOINSOU, Fondateurs de FIFAME
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. LES 4 DOMAINES D'ACTION -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Nos 4 Piliers</span>
+          <h2 class="section-title">Des actions concrètes menées chaque jour sur le terrain</h2>
+          <p class="section-desc">
+            FIFAME intervient sur tous les aspects de la vie des jeunes filles et de leur communauté à Toviklin.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <!-- 1. Éducation -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-icon">🎓</div>
+              <h3>1. Éducation & Bourses</h3>
+              <p>Fournitures scolaires, bibliothèque au programme officiel, cours de français quotidiens pour les apprenties analphabètes, bourses de 3 ans en couture/coiffure et dons de machines à coudre.</p>
+            </div>
+            <a href="programmes-education.html" class="pillar-link">Découvrir le programme &rarr;</a>
+          </div>
+
+          <!-- 2. Social -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-icon">🤝</div>
+              <h3>2. Social & Santé</h3>
+              <p>Sensibilisation contre les IST/SIDA, violences et grossesses précoces. Visites aux personnes âgées et centres de santé. Marché de Noël (20-25 déc.) et fête annuelle des enfants.</p>
+            </div>
+            <a href="programmes-social.html" class="pillar-link">Découvrir le programme &rarr;</a>
+          </div>
+
+          <!-- 3. Environnement -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-icon">🌱</div>
+              <h3>3. Environnement</h3>
+              <p>Journée annuelle du recyclage et de lutte contre les sachets plastiques le 23 décembre dans tout Toviklin, reboisement, sensibilisation contre les feux de brousse.</p>
+            </div>
+            <a href="programmes-environnement.html" class="pillar-link">Découvrir le programme &rarr;</a>
+          </div>
+
+          <!-- 4. Tourisme solidaire -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-icon">🌍</div>
+              <h3>4. Tourisme Solidaire</h3>
+              <p>Sorties pédagogiques pour les filles (Ganvié, Ouidah, Parcs nationaux). Circuits éco-solidaires pour visiteurs européens et accueil de stagiaires internationaux de 3 à 6 mois.</p>
+            </div>
+            <a href="programmes-tourisme.html" class="pillar-link">Découvrir le programme &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. LES FONDATEURS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Engagement & Proximité</span>
+          <h2 class="section-title">Une équipe profondément enracinée à Toviklin</h2>
+          <p class="section-desc">
+            FIFAME est animée par des personnes qui ont vécu les réalités du terrain et consacrent leur quotidien à changer la vie des jeunes filles.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Germaine -->
+          <div class="team-card">
+            <div class="team-card-img">
+              <img src="assets/images/germaine-woinsou.jpg" alt="Portrait de Germaine WOINSOU, formatrice et fondatrice">
+            </div>
+            <div class="team-card-body">
+              <div class="team-role">Fondatrice & Maîtresse Formatrice</div>
+              <h3 class="team-name">Germaine WOINSOU</h3>
+              <p class="team-bio">
+                Formatrice en couture à Toviklin. Après avoir élevé seule ses enfants, elle a ouvert son atelier gratuitement aux jeunes filles démunies et orphelines. À ce jour, <strong>43 apprenties ont déjà été formées</strong> et beaucoup dirigent désormais leur propre atelier.
+              </p>
+              <a href="equipe.html#germaine" class="pillar-link">Lire son parcours complet &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Prosper -->
+          <div class="team-card">
+            <div class="team-card-img">
+              <img src="assets/images/prosper-woinsou.jpg" alt="Portrait de Prosper WOINSOU, co-fondateur">
+            </div>
+            <div class="team-card-body">
+              <div class="team-role">Co-fondateur, Communication & Éducation</div>
+              <h3 class="team-name">Prosper WOINSOU</h3>
+              <p class="team-bio">
+                Diplômé en communication et marketing, réalisateur photo-vidéo et guide touristique. Ayant pu étudier grâce à un parrainage allemand, il est revenu à Toviklin fin 2018 avec cette devise : <em>« On m'a aidé, et c'est avec joie que j'aiderai. »</em> Il enseigne le français aux filles.
+              </p>
+              <a href="equipe.html#prosper" class="pillar-link">Lire son parcours complet &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. APERÇU GALERIE PHOTOS AUTHENTIQUES -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Sur le Terrain</span>
+          <h2 class="section-title">La vie et les activités de l'ONG en images</h2>
+          <p class="section-desc">
+            Découvrez le quotidien de nos ateliers, des cours de français, de la bibliothèque et des actions de solidarité.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="gallery-item">
+            <img src="assets/images/education-cours.jpg" alt="Séance d'apprentissage et de cours pour les jeunes filles">
+            <div class="gallery-caption">Séance de soutien et d'apprentissage du français pour les filles</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/bibliotheque.jpg" alt="La bibliothèque de l'ONG FIFAME avec les manuels scolaires">
+            <div class="gallery-caption">La bibliothèque scolaire ouverte pour tous les élèves de Toviklin</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/evenement-noel.jpg" alt="Marché et fête de Noël pour les enfants">
+            <div class="gallery-caption">Marché de Noël annuel pour développer l'esprit d'entreprise des apprenties</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="galerie.html" class="btn btn-secondary">Voir toute la galerie photos &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. DERNIÈRES ACTUALITÉS (BLOG) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">Actualités Réelles</span>
+          <h2 class="section-title">Dernières publications de FIFAME</h2>
+          <p class="section-desc">Retrouvez les articles et projets majeurs de l'ONG.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Article 1 : Cagnotte bibliothèque -->
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/images/blog-bibliotheque.png" alt="Projet Une bibliothèque pour FIFAME">
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Projet Prioritaire • Éducation</div>
+              <h3 class="card-title"><a href="faire-un-don.html">Cagnotte Leetchi : Une bibliothèque pour FIFAME</a></h3>
+              <p class="card-text">
+                Afin d'aider FIFAME à améliorer ses conditions d'accueil pour les jeunes filles et permettre à tous les élèves de Toviklin d'accéder aux manuels scolaires officiels, une collecte en ligne est ouverte.
+              </p>
+              <div class="card-meta">
+                <span>Campagne en ligne</span>
+                <a href="https://www.leetchi.com/c/une-bibliotheque-pour-fifame-lets-be-educated" target="_blank" rel="noopener" style="color: var(--fifame-red); font-weight: 700;">Participer sur Leetchi &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 2 : Enquête scolarité Toviklin -->
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/images/activite-filles.jpg" alt="Enquête sur la déscolarisation des filles à Toviklin">
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Enquête & Documentation</div>
+              <h3 class="card-title"><a href="blog.html#scolarite">La scolarité à Toviklin : Comprendre les défis</a></h3>
+              <p class="card-text">
+                Enquête et mise en lumière des causes majeures de l'abandon scolaire des jeunes filles dans la commune de Toviklin : pauvreté des familles, préjugés culturels et manque d'infrastructures.
+              </p>
+              <div class="card-meta">
+                <span>Article documenté</span>
+                <a href="blog.html#scolarite" style="color: var(--fifame-red); font-weight: 700;">Lire l'article &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. BANDEAU APPEL À L'ACTION -->
+    <section class="section section-dark" style="text-align: center;">
+      <div class="container" style="max-width: 800px;">
+        <span class="eyebrow" style="color: #FFFFFF;">Agir à nos côtés</span>
+        <h2 class="section-title" style="color: #FFFFFF; font-size: 2.5rem; margin-bottom: 1.25rem;">
+          Chaque don donne une chance réelle à une fille de Toviklin
+        </h2>
+        <p style="color: #D6D2CC; font-size: 1.1rem; line-height: 1.7; margin-bottom: 2rem;">
+          3 ans d'apprentissage, l'hébergement d'une orpheline, l'achat d'une machine à coudre ou d'un livre scolaire : votre soutien a un impact direct et vérifiable sur le terrain.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="faire-un-don.html" class="btn btn-primary btn-lg">Soutenir le projet Bibliothèque ♥</a>
+          <a href="contact.html" class="btn btn-white btn-lg">Nous contacter directement</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10. PIED DE PAGE INSTITUTIONNEL -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-frame">
+            <img src="assets/images/fifame-logo.jpg" alt="Logo ONG FIFAME">
+          </div>
+          <div class="footer-motto">« let's be educated »</div>
+          <p style="font-size: 0.8125rem; line-height: 1.6; color: #8A8580;">
+            Organisation Non Gouvernementale enregistrée et active depuis 2018 à Toviklin (Bénin). Dévouée à l'éducation, la formation professionnelle et l'émancipation des filles.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a-propos.html">À propos de FIFAME</a></li>
+            <li><a href="equipe.html">Notre Équipe</a></li>
+            <li><a href="programmes.html">Nos 4 Domaines d'Action</a></li>
+            <li><a href="galerie.html">Galerie Photos</a></li>
+            <li><a href="blog.html">Actualités & Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Programmes</h4>
+          <ul class="footer-links">
+            <li><a href="programmes-education.html">Éducation & Apprentissage</a></li>
+            <li><a href="programmes-social.html">Social & Sensibilisation</a></li>
+            <li><a href="programmes-environnement.html">Environnement & Recyclage</a></li>
+            <li><a href="programmes-tourisme.html">Tourisme Solidaire & Stages</a></li>
+            <li><a href="faire-un-don.html">Cagnotte Bibliothèque</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Officiel</h4>
+          <p style="margin-bottom: 0.5rem; color: #D6D2CC;">
+            📍 Maison Bossoun WOINSOU<br>BP 05 Dogbo, Toviklin (Bénin)
+          </p>
+          <p style="margin-bottom: 0.5rem; color: #D6D2CC;">
+            ✉️ <a href="mailto:fifameletsbe@gmail.com" style="color: #FFFFFF;">fifameletsbe@gmail.com</a>
+          </p>
+          <p style="margin-bottom: 0.75rem; color: #D6D2CC;">
+            📞 +229 65 24 33 33<br>📞 +229 97 53 43 38
+          </p>
+          <p style="margin-top: 0.75rem;">
+            <a href="https://www.facebook.com/fifameletsbe" target="_blank" rel="noopener" style="color: #FFFFFF; font-weight: 700; display: inline-flex; align-items: center; gap: 0.4rem;">
+              <span>Suivre FIFAME sur Facebook</span> &rarr;
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> FIFAME "let's be educated". Tous droits réservés. Toviklin, Bénin.
+        </div>
+        <div>
+          <a href="de/index.html">Deutsch 🇩🇪</a> &bull; 
+          <a href="contact.html">Mentions & Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOUTON WHATSAPP FLOTTANT (DIRECT TOVIKLIN) -->
+  <a href="https://wa.me/22965243333?text=Bonjour%20ONG%20FIFAME%2C%20je%20souhaite%20m%27informer%20sur%20vos%20actions." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contacter FIFAME sur WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
